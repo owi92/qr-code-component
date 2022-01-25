@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/*===============
+  GLOBAL STYLES 
+===============*/
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+  margin-bottom: -0.5em;
+  border-radius: 10px;
+}
+
+/*===============
+   TYPOGRAPHY
+===============*/
+
+h3 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*===============
+     LAYOUT
+===============*/
+
+.container {
+  width: 15.1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color: hsl(0, 0%, 100%);
+  padding: 0.9em;
+
+  border-radius: 15px;
 }
